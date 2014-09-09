@@ -1,3 +1,9 @@
+/*
+	Created by Achmad Fauzi
+	8 September 2014
+*/
+
+
 public class MatrixNol{
 
 	private static int [][]matrix;

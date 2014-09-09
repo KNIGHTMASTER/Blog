@@ -1,6 +1,6 @@
 /*
 	Created by Achmad Fauzi
-	8 September 2014
+	8 September 2014*
 */
 import java.util.Scanner;
 

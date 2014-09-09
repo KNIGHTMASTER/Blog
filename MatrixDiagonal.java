@@ -1,3 +1,9 @@
+/*
+	Created by Achmad Fauzi
+	8 September 2014
+*/
+
+
 import java.util.Random;
 
 public class MatrixDiagonal{
