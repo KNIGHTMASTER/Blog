@@ -11,6 +11,7 @@ import java.util.Random;
 /**
  *
  * @author Fauzi
+ * fauzi.knightmaster.achmad@gmail.com
  */
 public class JavaApplication2 {
 

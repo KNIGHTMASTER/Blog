@@ -14,7 +14,8 @@ import java.util.List;
 
 /**
  *
- * @author Ladies Man
+ * @author Achmad Fauzi
+ * fauzi.knightmaster.achmad@gmail.com
  */
 public class LogDisconnectReader {
 
