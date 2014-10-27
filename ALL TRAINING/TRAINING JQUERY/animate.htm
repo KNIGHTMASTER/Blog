@@ -1,0 +1,21 @@
+<html> 
+<head> 
+<script type="text/javascript" src="jquery-1.4.js"></script> 
+<script type="text/javascript"> 
+$(document).ready(function(){ 
+	$(".tombol1").click(function(){ 
+		$("#box").animate({height:"500px", width:"500px"}); 
+	}); 
+	$(".tombol2").click(function(){ 
+		$("#box").animate({height:"100px", width:"100px"}); 
+	}); 
+}); 
+</script>
+</head> 
+<body> 
+<div id="box" style="background:#98bf21;height:100px;width:100px;margin:6px;"> 
+</div> 
+<button class="tombol1">Animasi</button> 
+<button class="tombol2">Reset</button> 
+</body> 
+</html>

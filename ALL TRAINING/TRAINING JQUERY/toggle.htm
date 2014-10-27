@@ -1,0 +1,18 @@
+<html>	
+	<head>
+		<script type="text/javascript" src="jquery-1.4.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$(".tombol1").click(function(){
+					$("p").toggle(true);
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<p>ini adalah paragraf</p>
+		<p style="display:none">ini adalah paragraf lainnya yang belum muncul</p>
+		<p>Jika bernilai true, hanya berfungsi untuk menampikan, jika false untuk menyembunyikan</p>
+		<button class="tombol1">tampilkan semua elemen</button>
+	</body>
+</html>

@@ -1,0 +1,26 @@
+<script>
+	function cekLengkap(form){	
+		if(form.elements[0].value==""){
+			alert("masukkan data ke satu");
+			form.satu.focus();
+			form.satu.select();
+			return false;
+		}
+		if(form.elements[1].value==""){
+			alert("masukkan data ke dua");
+			form.dua.focus();
+			form.dua.select();
+			return false;
+		}		
+		else{
+			alert("oke data sudah Lengkap");
+		}
+	}
+</script>
+<center>
+<form name="formTes">
+	Satu :<input type="text" name="satu"><br />
+	Dua :<input type="text" name="dua"><br />
+	<input type="button" value="kirim" onClick="cekLengkap(this.form)">
+</form>
+</center>

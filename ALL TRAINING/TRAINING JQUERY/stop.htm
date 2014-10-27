@@ -1,0 +1,21 @@
+<html> 
+<head> 
+<script type="text/javascript" src="jquery-1.4.js"></script> 
+<script type="text/javascript">  
+$(document).ready(function(){ 
+  $("#start").click(function(){ 
+    $("#box").animate({height:400},"slow"); 
+    $("#box").animate({width:300},"slow"); 
+  }); 
+  $("#stop").click(function(){ 
+	//stop All dan goto End (parameternya)
+    $("#box").stop(true, false); 
+  }); 
+}); 
+</script>  
+</head> 
+<body> 
+<p><button id="start">Start Animasi</button><button id="stop">Stop Animasi</button></p> 
+<div id="box" style="background:#ababab;height:0px;width:10px;position:relative"></div> 
+</body> 
+</html> 

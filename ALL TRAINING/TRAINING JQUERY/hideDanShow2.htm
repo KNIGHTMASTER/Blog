@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<script type="text/javascript" src="jquery-1.4.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$(".klik").click(function(){
+					$("p").hide(1000, pesan);
+				});
+				$(".klik2").click(function(){
+					$("p").show(1000);
+				});				
+			})
+			function pesan(){
+				alert("sudah kesimpan");
+			}
+		</script>
+	</head>
+	<body>
+		<p>Hide me</P><br />
+		<input type="button" class="klik" value="Hide"/>
+		<input type="button" class="klik2" value="show"/>
+	</body>
+</html>

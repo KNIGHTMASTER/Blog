@@ -1,0 +1,22 @@
+<script>
+	function cekNumerik(text){
+		var list=new Array("1", "2", "3", "4", "5", "6", "7", "8", "9", "0");
+		var status = true;
+		for(a=0; a<text.length; a++){
+			if(text[a] in list)
+			cek = true;
+			else
+			cek = false;
+			
+			status = status && cek;
+		}
+		
+		if(status == true){
+			alert('oke');
+		}
+		else{
+			alert('bukan numerik');
+		}
+	}
+</script>
+<input type='text' id='input' onBlur='cekNumerik(this.value)'/>

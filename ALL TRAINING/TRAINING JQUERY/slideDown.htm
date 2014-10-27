@@ -1,0 +1,23 @@
+<html>
+	<head>
+		<script type="text/javascript" src="jquery-1.4.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$("#tombol").click(function(){
+					$("#tulisan").slideDown(1000);
+				});			
+				$("#tombol1").click(function(){
+					$("#tulisan").slideUp(1000);
+				});
+			});
+		</script>
+	</head>
+	<body>
+		<div style="display:none" id="tulisan">
+			Data 1:<input type="text" /><br />
+			Data 2:<input type="text" /><br />
+		</div>
+		<button id="tombol">Slide Down</button>
+		<button id="tombol1">Slide Up</button>
+	</body>
+</html>

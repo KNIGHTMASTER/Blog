@@ -1,0 +1,20 @@
+faculty{
+	display:block;
+	background-color:#FFFFFF;
+	font:Arial, Helvetica, sans-serif;
+}
+lawfaculty{
+	background-color:#FF0000;
+}
+engineeringfaculty{
+	background-color:#000099;
+}
+farmfaculty{
+	background-color:#00FF00;
+}
+economicfaculty{
+	background-color:#FFFF00;
+}
+culturefaculty{
+	background-color:#FF6600;
+}

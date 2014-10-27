@@ -1,0 +1,15 @@
+<script>
+	function hitung(form){
+		var a1 = parseInt(form.elements[0].value);
+		var a2 = parseInt(form.elements[1].value);
+		var z = a1+a2;
+		alert("hasilnya = "+z);
+	}
+</script>
+
+<h1 align="center">Perhitungan<h1>
+<form>
+	Angka 1 = <input type="text" /><br />
+	Angka 2 = <input type="text" /><br />
+	<input type="submit" value="hitung" onClick="hitung(this.form)">
+</form>

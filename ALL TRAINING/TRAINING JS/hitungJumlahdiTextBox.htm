@@ -1,0 +1,13 @@
+<script>
+	function hitung(form){		
+		var nilai1=parseInt(form.elements[0].value);
+		var nilai2=parseInt(form.elements[1].value);
+		nilai3=nilai1 + nilai2;
+		alert(nilai3);
+	}
+</script>
+<form name="count">
+	satu : <input type="text" name="satu"><br />
+	dua : <input type="text" name="dua"><br />
+	<input type="button" value="kirim" Onclick="hitung(this.form)">
+</form>

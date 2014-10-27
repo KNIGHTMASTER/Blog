@@ -1,0 +1,15 @@
+<script type="text/javascript">
+	function cekEmail(input){
+		alert(input);
+		if(input.indexOf('@')!=-1 && input.indexOf('.')!=-1){
+			alert('betul');
+		}else{
+			alert('salah');
+		}			
+	}
+</script>
+
+<form>
+	<input type="text" name="input"></input>
+	<input type="submit" value='cek email' onClick="cekEmail(input.value)">
+</form>

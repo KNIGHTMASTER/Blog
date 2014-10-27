@@ -1,0 +1,14 @@
+<form name="formJAM">
+	<input type="text" name="JAM" value="" size="50"/>
+</form>
+
+<script>
+	function setWaktu(){
+		var sekarang=new Date();
+		var waktu=sekarang.toLocaleString();
+		document.formJAM.JAM.value=waktu;
+		setTimeOut('setWaktu()',1000);
+		return true;
+	}
+	setWaktu();
+</script>

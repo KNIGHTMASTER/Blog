@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?xml-stylesheet type="text/css" href="style.css"?>
+<university>
+	<faculty>
+		<lawfaculty>
+			<law>ilmu hukum</law>
+		</lawfaculty>
+	</faculty>
+	<faculty>
+		<farmfaculty>
+			<kelautan>kelautan</kelautan>
+		</farmfaculty>
+	</faculty>
+	<faculty>
+		<engineeringfaculty>
+			<industri>industri</industri>
+			<informatika>informatika</informatika>
+			<mekatronika></mekatronika>
+		</engineeringfaculty>
+	</faculty>
+	<faculty>
+		<economicfaculty>
+			<syariah>syariah</syariah>
+			<pembangunan>pembangunan</pembangunan>
+			<pajak></pajak>
+		</economicfaculty>
+	</faculty>
+	<faculty>
+		<culturefaculty>
+			<sastra>sasing</sastra>
+			<sosiologi>sosiologi</sosiologi>
+		</culturefaculty>
+	</faculty>
+</university>

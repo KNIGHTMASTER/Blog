@@ -1,0 +1,17 @@
+<h1 align="center">VALIDASI EMAIL DENGAN DOM</h1>
+<script>
+	function cekEmail(email){
+		if(email.indexOf('@')!=-1 && email.indexOf('.')!=-1){
+			alert('email valid');
+		}else{
+			alert('email tidak valid');
+			document.getElementById('input').value="";
+			document.getElementById('input').focus();
+		}
+	}
+</script>
+
+<form>
+	Masukkan Email Anda :
+	<input id='input' type='text' onBlur='cekEmail(this.value)'>
+</form>

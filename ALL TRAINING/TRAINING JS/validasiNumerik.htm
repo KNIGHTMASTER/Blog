@@ -1,0 +1,42 @@
+<h1 align="center">VALIDASI EMAIL DAN NUMERIK DENGAN DOM</h1>
+<script>
+	function cekEmail(email){
+		if(email.indexOf('@')!=-1 && email.indexOf('.')!=-1){
+			alert('email valid');
+		}else{
+			alert('email tidak valid');
+			document.getElementById('input').value="";
+			document.getElementById('input').focus();
+		}
+	}
+	
+	function cekNumerik(data){
+		var list=new Array("1", "2", "3", "4", "5", "6", "7", "8", "9", "0");
+		var status = true;
+		for(a=0; a<data.length; a++){
+			if(data[a] in list)
+			cek = true;
+			else
+			cek = false;
+			
+			status = status && cek;
+		}
+		
+		if(status == true){
+			alert('oke');
+		}
+		else{
+			alert('masukkan input numerik');
+			document.getElementById('num').value="";
+			document.getElementById('num').focus();			
+		}		
+		
+	}
+</script>
+
+<form>
+	Masukkan Email Anda :
+	<input id='input' type='text' onBlur='cekEmail(this.value)'><br />
+	Masukkan Input Numerik :
+	<input id='num' type='text' onKeyUp='cekNumerik(this.value)'><br />
+</form>

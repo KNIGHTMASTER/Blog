@@ -1,0 +1,14 @@
+<script>
+	function cek(input){
+		alert(getText);
+		if(input.length>4){
+			alert('melebihi');			
+			getText.value="";
+			getText.focus();
+		}
+	}
+</script>
+
+<form>
+	<input id="data" type="text" name='data' onBlur='cek(this.value)'>
+</form>

@@ -1,0 +1,22 @@
+<html>
+	<head>
+		<script type="text/javascript" src="jquery-1.4.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$(".efeknya").click(function(){
+					$("#atas").fadeTo(1000, 0.1);
+				});
+				$(".kembali").click(function(){
+					$("#atas").fadeTo(1000, 1.0);
+				});				
+			});
+			function selesai(){
+				alert("oke");
+			}
+		</script>
+	</head>
+	<body>
+		<p id="atas" style="font-size:40px;">ini tulisannya dibikin fade to</p>
+		<button class="efeknya">efek fade to</button><button class="kembali">kembali</button>
+	</body>
+</html>

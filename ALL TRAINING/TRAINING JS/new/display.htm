@@ -1,0 +1,11 @@
+<script>
+	function display(text){
+		document.getElementById('tampil').innerHTML='<h1>'+text+'<h1>';
+	}
+</script>
+
+<form>
+<input type="text" onkeyUp="display(this.value)">
+</form>
+<div id="tampil">
+</div>

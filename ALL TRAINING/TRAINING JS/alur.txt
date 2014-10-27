@@ -1,0 +1,11 @@
+prompt
+
+JAVASCRIPT ACCESS DOM
+direct display input
+
+penggunaan event onBlur dan onFocus untuk validasi Form
+validasi email,jumlah karakter, numerik
+
+
+AJAX
+JQUERY

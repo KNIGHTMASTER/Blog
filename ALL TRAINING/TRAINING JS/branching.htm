@@ -1,0 +1,17 @@
+<script>
+	function seleksi(form){
+		var a =  form.elements[0].value;
+		if(a=="satu"){
+			alert("isi variabel satu");
+		}
+		else{
+			alert("isi variabel bukan satu");
+		}
+	}
+</script>
+<form>
+Masukkan sebuah kata = 
+<input type="text"></input>
+<br/>
+<input type="submit" value="kirim" onclick="seleksi(this.form)">
+</form>

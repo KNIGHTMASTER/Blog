@@ -1,0 +1,17 @@
+<script>
+	var no=1;
+	function tambah(){
+		count=no+1;
+		document.getElementById("input"+no).innerHTML="<p><input type='text' name='data[]' </p><div id='input''"+count+"'></div>";
+		this.no=no;
+		no++;
+	}
+</script>
+<form name="Fdinamis">
+<div id="input0">
+	<p>Masukkan Data :<input type="text" name="data[]"></p>
+</div>	
+<div id="input1">
+	<a href="javascript:tambah()">tambah</a><br /><a href="javascript:kurang()">kurang</a>
+</div>
+</form>

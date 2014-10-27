@@ -1,0 +1,27 @@
+<html>
+	<head>
+		<style type="text/css">
+			#kotak{
+				background:red;
+				height:100px;
+				width:100px;
+			}
+		</style>
+		<script type="text/javascript" src="jquery-1.4.js"></script>
+		<script type="text/javascript">
+			$(document).ready(function(){
+				$(".tombol").click(function(){
+					$("div").animate({height:"800px", width:"800px"});
+				});
+			});
+			/*function tes(){
+				alert('oke');
+			}*/
+		</script>
+	</head>
+	<body>
+		<p>oke<br /></p>
+		<div id="kotak"></div>
+		<input type="button" class="tombol" onClick="tes()" value="Click Me"></input>
+	</body>
+</html>

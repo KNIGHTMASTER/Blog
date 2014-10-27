@@ -1,0 +1,11 @@
+import java.io.*;
+
+class TerminalLauncher
+{
+    public static void main(String args[]) throws IOException
+    {
+        String command= "/usr/bin/xterm"; 
+        Runtime rt = Runtime.getRuntime();      
+        Process pr = rt.exec(command);
+    }
+}

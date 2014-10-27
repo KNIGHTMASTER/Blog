@@ -1,0 +1,18 @@
+<html>
+<head>
+<title>Using JavaScript DOM</title>
+<script language="javascript">
+	function display(teks){
+		document.getElementById('targetDiv').innerHTML ="<h1>"+teks+"</h1>";
+	}
+</script>
+</head>
+<body>
+	<h1>Menggunakan Javascript DOM</h1>
+	<form>
+		<input onkeyup="display(this.value)"/>
+	</form>
+	<div id="targetDiv">
+	</div>
+</body>
+</html>

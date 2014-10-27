@@ -1,0 +1,15 @@
+/* CSS Document */
+h1{
+background:#00CC00;
+border:groove;
+font-family:Geneva, Arial, Helvetica, sans-serif;
+}
+.data{
+background:#FFCCFF;
+font-family:"Times New Roman", Times, serif;
+font-size:24px;
+}
+#link{
+color:#0000FF;
+background:#FF00FF;
+}
