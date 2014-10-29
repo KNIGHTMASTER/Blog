@@ -23,7 +23,7 @@ import org.jnetpcap.protocol.tcpip.Tcp;
  * @author Achmad Fauzi
  * fauzi.knightmaster.achmad@gmail.com
  */
-public class PacketCapturer {
+public class LivePacketCapture {
 
     public static void main( String  [] args ){
         try {

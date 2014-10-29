@@ -20,7 +20,7 @@ import org.jnetpcap.protocol.tcpip.Tcp;
  * @author Achmad Fauzi
  * fauzi.knightmaster.achmad@gmail.com
  */
-public class PacketCapturer2 {
+public class FilePacketCapture {
      
   
     /** 
