@@ -1,0 +1,192 @@
+1 = it
+2 = Ji/No (spesial untuk ratusan/ribuan/puluh ribuan/jutaan)
+3 = sa
+4 = si
+5 = go
+6 = lak
+7 = cit
+8 = pek
+9 = kau
+10= cap
+
+11 = cap it
+12 = cap ji
+13 = cap sa
+14 = cap si
+15 = cap go
+16 = cap lak
+17 = cap cit
+18 = cap pek
+19 = cap kau
+20 = ji cap
+21 = ji cap it
+22 = ji cap ji
+23 = ji cap sa
+24 = Ji cap si
+
+25 = ji go
+50 = go cap
+
+60 = lak cap
+70 = cit cap
+80 = pek cap
+90 = kau cap
+
+Dulu masih ada 25/50 perak (rupiah) = tun
+
+Rp 5 = go tun
+R0 10 = cap tun
+Rp 25 = ji go tun
+Rp 50 = go cap tun
+Rp 100 = ce pek tun
+
+
+RATUS = Pek
+
+100 = Ce pek
+150 = pek go
+200 = no pek
+250 = no pek go
+300 = sa pek
+400 = si pek
+500 = go pek
+600 = lak pek
+700 = cit pek
+800 = pek pa tun
+900 = kau pek
+
+
+RIBUAN = Ceng
+
+1000 = seceng, secengan = ribuan
+1500 = ceng go
+2000 = no ceng
+2500 = no ceng go
+3000 = sa ceng
+4000 = si ceng
+5000 = go ceng
+6000 = lak ceng
+7000 = cit ceng
+8000 = pek ceng
+9000 = kau ceng
+
+10 ribu = ceban, 10.000an = cebanan
+15 ribu = ban go
+20 ribu = no ban
+25 ribu = no ban go
+30 ribu = sa ban
+35 ribu = sa ban go
+40 ribu = si ban
+45 ribu = si ban go
+50 ribu = go ban
+60 ribu = lak ban
+70 ribu = cit ban
+80 ribu = pek ban
+90 ribu = kau pan
+
+100 rb = ce pek ceng
+125 rb = pek ji go (umumnya org ngerti itu u/ 125 ribu)
+110 ribu = pek it
+120 ribu = pek ji
+130 rbiu = pek sa
+140 ribu = pek si
+150 ribu = pek go
+160 ribu = pek lak
+170 ribu = pek cit
+180 ribu = pak pek
+190 ribu = pek kau
+200 rb = nopek ceng
+250 rb = nopek go
+300 rb = sa pek ceng
+350 rb = sa pek go
+400 rb = si pek ceng
+500 rb = go pek ceng
+600 rb = lak pek ceng
+700 rb = cit pek ceng
+800 rb = pek pak ceng
+900 rb = kau pek ceng
+
+
+JUTA = Tiao
+
+1 juta = ce tiao
+1.1 juta = tiao it
+1.2 juta = tiao ji
+1.3 juta = tiao sa
+1.4 juta = tiao si
+1.5 juta = tiao puah = sejuta setengah
+1.6 juta = tiao lak
+1.7 juta = tiao cit
+1.8 juta = tiao pek
+1.9 juta = tiao kau
+2 juta = no tiao
+2.1 juta = no tiao it
+2.2 juta = no tiao ji
+2.3 juta = no tiao sa
+2.5 juta = no tiao puah
+
+3 juta = sa tiao
+4 juta = si tiao
+5 juta = go tiao
+6 juta = lak tiao
+7 juta = cit tiao
+8 juta = pek tiao
+9 juta = kau tiao
+10 juta = cap tiao
+
+dst … + tiao
+
+50 juta = go cap tiao
+100 juta = cepek tiao
+500 juta = gopek tiao
+
+
+TEST:
+Untuk menguji kemampuan anda akan angka-angka di atas anda dapat melakukan hal berikut.
+
+Isi titik sesuai dengan ingatan anda.
+
+1. CENG GO = …..?
+
+2. SA TIAO POAH = …….?
+
+3. SE CENG = …..?
+
+4. JI GO TUN = ….?
+
+5. LAK PEK TIAO =…..?
+
+6. NO CENG GO = …..?
+
+7. GO BAN = ….?
+
+8. BAN GO = ….?
+
+9. PEK JI GO = ….?
+
+10. LAK BAN = ….?
+
+
+JAWABAN :
+
+1. CENG GO = 1500
+
+2. SA TIAO POAH = 3 Juta Setengah
+
+3. SE CENG = Seribu
+
+4. JI GO TUN = 25 perak
+
+5. LAK PEK TIAO = 600 juta
+
+6. NO CENG GO = 2500
+
+7. GO BAN = 50 ribu
+
+8. BAN GO = 15 ribu
+
+9. PEK JI GO = 125 ribu
+
+10. LAK BAN = 60 ribu
+
+Tips jawaban : Sorot semua pertanyaan 1 s.d 10 anda akan menemukan jawabannya
